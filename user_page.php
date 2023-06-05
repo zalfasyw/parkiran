@@ -29,10 +29,10 @@ $nama  = $_SESSION['user_name'];
     </div>
 
     <nav class="navbar">
-        <ul>
+        <!-- <ul>
             <li><a href="?page=denah">DENAH PARKIR</a></li>
             <li><a href="?page=history">HISTORY</a></li>
-        </ul>
+        </ul> -->
     </nav>
     <section>
         <?php if (isset($_GET["page"]))
