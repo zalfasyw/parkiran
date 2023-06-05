@@ -36,7 +36,7 @@ $nama  = $_SESSION['user_name'];
     </nav>
     <section>
         <?php if (isset($_GET["page"]))
-                include "konten/"
+                include "konten/$_GET[page].php";
         ?>
     </section>
 
@@ -44,18 +44,13 @@ $nama  = $_SESSION['user_name'];
 
 
 
-<!-- header section ends -->
+<!-- header section ends
 
 <div id="menu" class="fas fa-bars"></div>
 
 
-<!-- home section starts -->
-<section class="home" id="home">
-
-<!-- jquery cdn link -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-
-<script src="js/script.js"></script>
+home section starts
+<section class="home" id="home"> -->
 
 </body>
 </html>
