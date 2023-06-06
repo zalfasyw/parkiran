@@ -1,6 +1,7 @@
 <?php
 session_start();
 $nama  = $_SESSION['user_name'];
+$nomor  = $_SESSION['plat'];
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -24,8 +25,8 @@ $nama  = $_SESSION['user_name'];
 
     <div class="user">
         <img src="images/pic.jpg" alt="">
-        <h3 class="name">Halo, <?php echo $nama ?>!</h3>
-        <p class="post">front end developer</p>
+        <h3 class="name">Halo <?php echo $nama ?>!</h3>
+        <p class="post"><?php echo $nomor ?></p>
     </div>
 
     <nav class="navbar">
